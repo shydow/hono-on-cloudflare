@@ -1,3 +1,11 @@
+# introduction
+## why this?
+- Fast development, a minimal lightweight sample based on Hono and Tailwind CSS. 
+- Full-stack support, whether it's a web application or an API service.
+- Free hosting and more: auto scaling, easy to deploy, no need to maintain, fast access (thanks cloudflare)
+## key framework
+- hono
+- tailwindcss
 # create a brand new project for your own.
 
 **1. Create application using pnpm**
@@ -78,4 +86,14 @@ pnpm install npm-run-all
   }
 }
 
+```
+
+5. let's go!
+- run
+```
+pnpm run dev
+```
+- deploy(cloudflare account needed)
+```
+npm run deploy
 ```
