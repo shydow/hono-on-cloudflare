@@ -32,6 +32,8 @@ pnpm install tailwindcss postcss autoprefixer
 ```   
 - generate tailwindcss.config.js
 ```
+pnpm dlx tailwindcss init -p
+# or
 npx tailwindcss init
 ```
 - modify tailwindcss.config.js
